@@ -2,18 +2,12 @@
 <html>
 <head>
 <title>Chat</title>
-<link href="http://laptop:1279/main.css" type="text/css" rel="stylesheet">
-<link href="http://laptop/css/jquery-ui.css" type="text/css" rel="stylesheet">
-<link href="http://laptop/css/bootstrap.css" type="text/css" rel="stylesheet">
-<link href="http://laptop/css/w3.css" type="text/css" rel="stylesheet">
-<link href="http://laptop/css/chosen.css" type="text/css" rel="stylesheet">
-<script src="http://laptop/js/jquery.js"></script>
-<script src="http://laptop/js/bootstrap.js"></script>
-<script src="http://laptop/js/knob.js"></script>
-<script src="http://laptop/js/jquery-ui.js"></script>
-<script src="http://laptop/js/chosen.jquery.js"></script>
-<script type="text/javascript" src="http://laptop/js/noty/packaged/jquery.noty.packaged.min.js"></script>
-<script type="text/javascript" src="http://laptop/js/plugins.js"></script>
+<link href="/main.css" type="text/css" rel="stylesheet">
+
+<link href="/css/w3.css" type="text/css" rel="stylesheet">
+
+<script src="/js/jquery.js"></script>
+
 
 <script>
 // initilization code
@@ -22,7 +16,7 @@
 <body class="w3-center">
 <nav>
 <h2 id="logo"><b>Chat</b></h2>
-<div class="w3-bar"><a class="w3-button" href="http://laptop:1279/">Home</a><a class="w3-button" href="http://laptop:8080/"><b>Chat<span class="it">it</span></b></a><a class="w3-button" href="http://laptop/">Wilton Web Development</a><a class="w3-button" href="http://laptop:1279/chat/">Go And Chat!</a></div>
+<div class="w3-bar"><a class="w3-button" href="http://localhost:8080/">Home</a><a class="w3-button" href="http://localhost:8080/chat/">Go And Chat!</a></div>
 <hr>
 </nav>
 <br>
@@ -36,18 +30,7 @@
 
 
 
-// make select boxes look better: 
-$("select").chosen();
-$(".page").text(location.pathname);
-noty({
-text: 'Welcome To <i>Chatit Light</i>!',
-layout: 'topRight',
-type: 'information',
-timeout: 3000,
-progressBar: true,
-theme: "metroui"
 
-});
 </script>
 </body>
 </html>
