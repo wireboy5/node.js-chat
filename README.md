@@ -12,4 +12,4 @@ then:
 node app.js
 ```
 
-No npm install required all dependancys are included.
+No _npm install_ required all dependancys other than node.js are included.
