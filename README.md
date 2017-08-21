@@ -9,6 +9,6 @@ cd /directory/into/source/code/folder/
 npm install
 node app.js
 ```
-Other Dependancys:
+Dependencies to be installed before use:
 - Node.js
 - Npm
