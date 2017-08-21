@@ -1,0 +1,44 @@
+.it {
+color: red;
+}
+
+body {
+overflow: auto;
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+h2 ins{
+color:#777;
+text-decoration:none;
+font-size: 20px;
+}
+ins{
+color:#777;
+text-decoration:none;
+
+}
+lht{
+color:#777;
+text-decoration:none;
+font-size: 10px;
+}
+#home{
+width:30%;
+margin-left: 35%;
+}
+#chatList{
+list-style: none;
+}
+#chtin{
+position: fixed;
+display:block;
+top: 93%;
+width: 100%;
+left: 0%;
+}
+#chatin{
+width:100%;
+}
+
