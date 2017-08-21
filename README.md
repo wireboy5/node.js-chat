@@ -11,4 +11,4 @@ node app.js
 ```
 Other Dependancys:
 - Node.js
--Npm
+- Npm
