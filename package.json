@@ -1,1 +1,10 @@
-{}
+{
+
+"dependencies":{
+"socket.io":"1.6.9 - 1.7.3",
+"express":"*",
+"fs":"*",
+"http":"*"
+}
+
+}

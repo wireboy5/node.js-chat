@@ -11,6 +11,14 @@ app.get('/', function(req, res){
   res.sendfile('files/index.html');
 });
 
+app.get('/css/w3.css', function(req, res){
+  res.sendfile('files/css/w3.css');
+});
+
+app.get('/js/jquery.js', function(req, res){
+  res.sendfile('files/js/jquery.js');
+});
+
 app.get('/script.js', function(req, res){
   res.sendfile('files/script.js');
 });
