@@ -6,10 +6,9 @@ This is a simple chat program useing node.js.
 To run:
 ```
 cd /directory/into/source/code/folder/
-```
-then:
-```
+npm install
 node app.js
 ```
-
-No _npm install_ required all dependancys other than node.js are included.
+Other Dependancys:
+- Node.js
+-Npm
