@@ -1,7 +1,7 @@
 # node.js-chat
 
 ### About
-This is a simple chat program useing node.js.
+This is a simple chat program useing node.js and socket.io.
 ### How to run:
 To run:
 ```
